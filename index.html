@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockfuse Sports App</title>
+</head>
+<body>
+    <h2>Blockfuse Live Sport</h2>
+    <form id="bioDataform">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required aria-label="Your name">
+        <br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required aria-label="Your email address">
+        <br><br>
+
+        <label for="club">Club</label>
+        <input type="text" id="club" name="club" required aria-label="Your club">
+        <br><br>
+
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" required min="1" max="120" aria-label="Your age">
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
